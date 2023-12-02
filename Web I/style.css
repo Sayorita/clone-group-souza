@@ -1,0 +1,44 @@
+@import url(https://fonts.google.com/specimen/Oswald?query=Oswald);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000C44;
+}
+
+.container {
+    display: grid;
+    /* grid-auto-flow: column;  ou row se quiser que o layout se organize em linhas*/
+    grid-template-columns:1fr 2fr;
+}
+
+body{
+    font-family: 'Oswald';
+    font-size: 1rem;
+}
+
+.box {
+    font-weight: 600;
+    color: aliceblue;
+    padding: 50px;
+    gap: 1em;
+     
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+
+img{
+    top: 30px;
+    position: absolute;
+}
+
+
+
+
